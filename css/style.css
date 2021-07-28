@@ -59,8 +59,8 @@ body a:focus {
 	display: none;
 	text-decoration: none;
 	position: fixed;
-	bottom: 24px;
-	right: 3%;
+	bottom: 15px;
+	right: 65px;
 	overflow: hidden;
 	z-index: 999;
 	width: 32px;
@@ -86,6 +86,35 @@ body a:focus {
 header h1,
 footer h2 {
 	line-height: 0;
+}
+.redes ul li i{
+	width:35px;
+	line-height: 35px;
+	text-align:center;
+	cursor:pointer;
+}
+
+.redes ul li i.fa-facebook-f{
+	background: #1475E0;
+}
+
+.redes ul li i.fa-instagram{
+	background: #B18768;
+}
+
+
+.redes ul li i.fa-twitter{
+	background: #00A6FF;
+}
+
+
+.redes ul li i.fa-youtube{
+	background: #F95F62;
+}
+
+
+.redes ul li i.fa-snapchat-ghost{
+	background: #FF9052;
 }
 
 .navbar-light {
@@ -1228,6 +1257,28 @@ span.icon_g_plus {
 	color: #fff;
 }
 
+#app-messenger, #app-whatsapp{
+	position: fixed;
+	right: 24px;
+	bottom: 20px;
+	width: 150px;
+	z-index: 1000;
+	display: none;
+}
+#app-whatsapp{
+	bottom: 55px;
+	display: block;
+}
+#app-messenger i, #app-whatsapp i{
+	font-size: 63px;
+}
+#app-whatsapp i{
+	color: #00e676;
+}
+#app-messenger i{
+	color: #0084ff;	
+}
+
 /* -- Responsive code -- */
 @media screen and (max-width: 1366px) {
 	.slider-info h3 {
@@ -1504,4 +1555,12 @@ span.icon_g_plus {
 	}
 }
 
+@media screen and (max-width: 766px){
+	#fb-root{
+		display: none;
+	}
+	#app-messenger{
+		display: block;
+	}
+}
 /* -- //Responsive code -- */
