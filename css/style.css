@@ -123,8 +123,8 @@ footer h2 {
 	z-index: 999;
 	width: 80%;
 	left: 10%;
-	top: 4%;
-	background: #0093d0;
+	top: 10%;
+	background: #766af7;
 	border-radius: 70px;
 }
 
@@ -246,7 +246,7 @@ ul.navbar-nav.ml-lg-auto.text-center {
 	font-weight: 600;
 	letter-spacing: 1px;
 	font-size: 15px;
-	background: #0093d0;
+	background: #766af7;
 	border: none;
 	text-transform: capitalize;
 	border-radius: 30px;
@@ -597,7 +597,7 @@ section.insurance_stats:before {
 /* //stats */
 /*-- text Slider --*/
 .testimonials {
-	background: #0093d0;
+	background: #766af7;
 }
 
 #slider {
@@ -1249,7 +1249,7 @@ span.icon_g_plus {
 
 .cpy-right {
 	padding: 1em 0;
-	background: #0093d0;
+	background: #766af7;
 	text-align: center;
 }
 
@@ -1257,26 +1257,38 @@ span.icon_g_plus {
 	color: #fff;
 }
 
-#app-messenger, #app-whatsapp{
+#app-whatsapp{
 	position: fixed;
 	right: 24px;
-	bottom: 20px;
-	width: 150px;
+	bottom: 25px;
+	width: 60px;
 	z-index: 1000;
 	display: none;
 }
+
+#app-instagram{
+	position: fixed;
+	right: 24px;
+	bottom: 45px;
+	width: 60px;
+	z-index: 1000;
+	display: none;
+}
+
+
 #app-whatsapp{
-	bottom: 55px;
+	bottom: 100px;
 	display: block;
 }
-#app-messenger i, #app-whatsapp i{
+
+#app-instagram i, #app-whatsapp i{
 	font-size: 63px;
 }
 #app-whatsapp i{
 	color: #00e676;
 }
-#app-messenger i{
-	color: #0084ff;	
+#app-instagram i{
+	color: #B18768;	
 }
 
 /* -- Responsive code -- */
@@ -1559,7 +1571,7 @@ span.icon_g_plus {
 	#fb-root{
 		display: none;
 	}
-	#app-messenger{
+	#app-instagram{
 		display: block;
 	}
 }
